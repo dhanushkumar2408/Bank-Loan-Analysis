@@ -1,3 +1,5 @@
+# BANK LOAN ANALYSIS
+
 #### 1. **Project Overview**
    - **Title**: Bank Loan Data Analysis
    - **Tools**: MySQL , Power-BI
