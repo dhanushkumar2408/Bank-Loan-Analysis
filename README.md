@@ -1,5 +1,7 @@
 # Bank-Loan-Analysis
 
+### Tools Used : MySQL , PowerBI
+
 # Page-1
 
 ### **Report Overview**
