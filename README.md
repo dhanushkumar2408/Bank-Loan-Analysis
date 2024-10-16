@@ -1,6 +1,52 @@
-# Bank-Loan-Analysis
+#### 1. **Project Overview**
+   - **Title**: Bank Loan Data Analysis
+   - **Tools**: MySQL , Power-BI
+   - **Description**: 
+  Created a bank loan data analysis report using MySQL for data extraction and Power BI for visualization. The report highlights key metrics like loan applications, funded amounts, and received payments, and provides insights into good vs. bad loans, loan statuses, and borrower characteristics. The dashboard also includes interactive filters and slicers to explore trends by state, purpose, loan term, and other dimensions, helping to identify patterns in loan performance and risk factors.
 
-### Tools Used : MySQL , PowerBI
+#### 2. **Objectives**:
+   - Analyze the total number of loan applications and funded amounts.
+   - Calculate month-to-date (MTD) and prior month-to-date (PMTD) metrics.
+   - Measure the overall loan performance through good and bad loan percentages.
+   - Study loan status by state, term, purpose, and home ownership.
+   - Generate insights on interest rates, DTI, and loan statuses.
+   - Create a detailed PowerBI Report / Dashboard
+
+#### 3. **SQL Queries Breakdown**:
+   - **Total Loan Applications**: Total number of applications received.
+   - **Total Funded Amount**: Sum of the loan amounts funded.
+   - **Total Amount Collected**: Sum of payments collected on loans.
+   - **MTD and PMTD Calculations**: Month-to-date comparisons for key metrics.
+   - **Loan Status Analysis**: Breakdown of fully paid, current, and charged-off loans.
+   - **Good vs. Bad Loans**: Percentage of successful (good) loans versus charged-off (bad) loans.
+   - **State-wise Loan Analysis**: Loan applications, funded amounts, and payments received across different states.
+   - **Loan Purpose & Term Analysis**: Analyzing loan trends by purpose (e.g., credit card, car) and term (e.g., 36 or 60 months).
+   - **Home Ownership and Employment Length**: Effect of home ownership and employment length on loan performance.
+
+#### 4. **Key Metrics and KPIs**:
+   - **Total Loan Applications**: 6,412
+   - **Total Funded Amount**: $67.5M
+   - **MTD Loan Applications**: 873
+   - **MTD Funded Amount**: $10.6M
+   - **Average Interest Rate**: 11.4%
+   - **Average Debt to Income (DTI)**: 13.8%
+
+
+#### 5. **Potential Findings from SQL**:
+   - **Loan Volume and Funded Amounts**:
+     There is a substantial volume of loans, with a significant amount of funds disbursed ($67.5M). MTD growth is promising, with over $10.6M funded this month.
+   - **Interest Rate & Debt-to-Income Ratio**:
+     The average interest rate stands at 11.4%, with a DTI ratio of 13.8%. Loans with lower DTI and higher grades tend to be associated with better repayment rates.
+   - **Good vs. Bad Loans**:
+     The percentage of "Good Loans" (fully paid or current) is high, while the percentage of "Bad Loans" (charged off) is relatively low. However, the charged-off loans contribute a notable risk.
+   - **State-Wise Performance**:
+     Certain states show a higher volume of loan applications and collections, which could indicate regional trends in creditworthiness or loan demand.
+   - **Purpose of Loans**:
+     Loans for credit cards and mortgages are the most common, indicating a trend in consumer spending habits and refinancing needs.
+
+
+
+# Power BI Report
 
 # Page-1
 
@@ -9,7 +55,7 @@ The 1st Page presents a comprehensive summary of bank loan activities, focusing 
 
 ---
 
-### **Key Metrics (Top Section)**
+### **Key Metrics**
 1. **Total Loan Applications**: 
    - **6412** applications, which saw an **873** month-over-month (MoM) growth, representing a **15.8%** increase.
    
@@ -55,7 +101,7 @@ A donut chart illustrates the smaller share of bad loans, which constitutes 10.3
 
 ---
 
-### **Loan Status Table (Bottom Section)**
+### **Loan Status Table**
 The table breaks down loan status into three categories with key metrics:
 - **Fully Paid**: 
   - **5682** fully paid loans, with a total funded amount of **$58.9M**.
