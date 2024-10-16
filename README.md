@@ -259,9 +259,11 @@ The table shows detailed loan records with the following fields:
    - **Grade**: Filters loans based on grade (A to E).
    - **Purpose**: Filters data based on loan purposes (credit card, car, etc.).
 
+---
 
 ### **DAX MEASURES**
 
+**Same Dax Caluculations are applied to Total Funded Amount , Total Received Amount , Average Interest , Average DTI**
 
 ![Screenshot 2024-10-16 131754](https://github.com/user-attachments/assets/50409c4c-1838-429f-ae36-ff0c5a3e4d03)
 ![Screenshot 2024-10-16 131745](https://github.com/user-attachments/assets/a45d3c16-2e89-442c-89ff-1d75f8b379b7)
@@ -269,7 +271,11 @@ The table shows detailed loan records with the following fields:
 ![Screenshot 2024-10-16 131719](https://github.com/user-attachments/assets/cc2fe9a9-e5a5-40d3-98cd-fa3be780229c)
 ![Screenshot 2024-10-16 131707](https://github.com/user-attachments/assets/8ac6549b-5113-476c-88ee-4aa6ffb31c07)
 ![Screenshot 2024-10-16 131657](https://github.com/user-attachments/assets/c52248bf-d80b-4ad8-80b9-ed2143c5a3d7)
+![Screenshot 2024-10-16 135752](https://github.com/user-attachments/assets/b7e62cc2-7aec-45dd-93e0-04596d810672)
 
+---
 
+**Created a Calendar Table to efficiently plot visualisations , connected 'Date' field to Loan table with 'Issue_date"**
 
-**Same Dax Caluculations are applied to Total Funded Amount , Total Received Amount , Average Interest , Average DTI**
+![Screenshot 2024-10-16 134944](https://github.com/user-attachments/assets/eb2caf9b-412f-48bc-804e-f915bc95fc1c)
+![Screenshot 2024-10-16 134927](https://github.com/user-attachments/assets/44121def-bc69-49bf-b47d-40f4ab96b008)
