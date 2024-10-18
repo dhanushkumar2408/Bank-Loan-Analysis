@@ -1,5 +1,8 @@
 # BANK LOAN ANALYSIS
 
+![images](https://github.com/user-attachments/assets/e3eb7381-8dfc-4d67-89b7-de2190a204a6)
+
+
 #### 1. **Project Overview**
    - **Title**: Bank Loan Data Analysis
    - **Tools**: MySQL , Power-BI
